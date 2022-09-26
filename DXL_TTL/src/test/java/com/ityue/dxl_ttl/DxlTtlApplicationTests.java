@@ -15,7 +15,7 @@ class DxlTtlApplicationTests {
         rabbitTemplate.convertAndSend("test_exchange_ttl","test.hh","订单信息");
         for (int i = 0; i < 3; i++) {
             System.err.println(i);
-            Thread.sleep(1000);1
+            Thread.sleep(1000);
         }
     }
 }
