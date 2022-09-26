@@ -1,0 +1,11 @@
+server:
+    port: 8081
+spring:
+    application:
+        name: mq-pro
+    rabbitmq:
+        host: 127.0.0.1
+        password: 123
+        port: 5672
+        username: ityue
+        virtual-host: /ityueca
